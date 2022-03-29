@@ -7,6 +7,7 @@ export const globalStyles = css`
   }
 
   body {
+    /* min-width: 375px; */
     font-size: 1rem;
   }
 
