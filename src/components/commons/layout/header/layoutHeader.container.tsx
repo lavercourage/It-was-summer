@@ -14,6 +14,9 @@ const LayoutHeader = () => {
         It was summer.
       </L.Logo>
       <L.CategoryWrapper>
+        <L.Category id="/test" onClick={onClickMovePage}>
+          TestPage
+        </L.Category>
         <L.Category id="/about" onClick={onClickMovePage}>
           About
         </L.Category>
